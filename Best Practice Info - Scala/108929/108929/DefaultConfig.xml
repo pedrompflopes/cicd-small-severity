@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root_Element>
+  <Configuration>
+    <Key>SMALL_PROJECT_BORDER</Key>
+    <Value>3000000</Value>
+  </Configuration>
+  <Configuration>
+    <Key>IMPORTANT_FILE_ONLY_SCAN</Key>
+    <Value>true</Value>
+  </Configuration>
+  <Configuration>
+    <Key>NEW_PYTHON</Key>
+    <Value>false</Value>
+  </Configuration>
+</Root_Element>

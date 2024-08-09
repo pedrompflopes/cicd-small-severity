@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestData>
+  <E2ETest>
+    <PROJECTNAME>32627\ClientDoSBySleep</PROJECTNAME>
+    <TESTTYPE>QUERY</TESTTYPE>
+    <TESTOBJECTIVE>2400</TESTOBJECTIVE>
+    <LANGUAGE>JavaScript</LANGUAGE>
+    <RESULTS>3</RESULTS>
+    <RESULTSLIST>
+      <RESULT 
+        InitialFileName="\ClientDosBySleep1.js" 
+        InitialName="Form" 
+        InitialLine="2" 
+        InitialColumn="24" 
+        InitialLength="4" 
+        InitialNodeId="243" 
+        EndFileName="\ClientDosBySleep1.js" 
+        EndName="timeout" 
+        EndLine="3" 
+        EndColumn="31" 
+        EndLength="7" 
+        EndNodeId="271" />
+      <RESULT 
+        InitialFileName="\ClientDosBySleep3.js" 
+        InitialName="search" 
+        InitialLine="2" 
+        InitialColumn="25" 
+        InitialLength="6" 
+        InitialNodeId="400" 
+        EndFileName="\ClientDosBySleep3.js" 
+        EndName="timeout" 
+        EndLine="3" 
+        EndColumn="31" 
+        EndLength="7" 
+        EndNodeId="426" />
+      <RESULT 
+        InitialFileName="\ClientDosBySleep2.js" 
+        InitialName="hash" 
+        InitialLine="2" 
+        InitialColumn="26" 
+        InitialLength="4" 
+        InitialNodeId="348" 
+        EndFileName="\ClientDosBySleep2.js" 
+        EndName="interval" 
+        EndLine="3" 
+        EndColumn="39" 
+        EndLength="8" 
+        EndNodeId="374" />
+    </RESULTSLIST>
+    <QAANNOTATION></QAANNOTATION>
+    <USEDEFAULTCONFIG>False</USEDEFAULTCONFIG>
+    <VERSIONNUMBER>*</VERSIONNUMBER>
+    <DESCRIPTION>write code examples in Javascript for all CxDescriptions</DESCRIPTION>
+    <PBIBUGID>28597</PBIBUGID>
+		<TAGS>Engine; JavaScript; roadmap bucket;SastAutomation</TAGS>
+  </E2ETest>
+</TestData>

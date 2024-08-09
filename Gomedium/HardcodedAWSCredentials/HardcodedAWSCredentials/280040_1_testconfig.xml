@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestData>
+  <E2ETest>
+    <PROJECTNAME>280040\HardcodedAWSCredentials</PROJECTNAME>
+    <TESTTYPE>QUERY</TESTTYPE>
+    <TESTOBJECTIVE>7493</TESTOBJECTIVE>
+    <LANGUAGE>Go</LANGUAGE>
+    <RESULTS>10</RESULTS>
+    <RESULTSLIST>
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken2.go"
+        InitialName="&quot;SECRET_KEY&quot;"
+        InitialLine="16"
+        InitialColumn="15"
+        InitialLength="12"
+        InitialNodeId="260"
+        EndFileName="\test_hardcoded_aws_cred_broken2.go"
+        EndName="Credentials"
+        EndLine="21"
+        EndColumn="14"
+        EndLength="3"
+        EndNodeId="314" />
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken2.go"
+        InitialName="&quot;ACCESS_KEY&quot;"
+        InitialLine="15"
+        InitialColumn="15"
+        InitialLength="12"
+        InitialNodeId="252"
+        EndFileName="\test_hardcoded_aws_cred_broken2.go"
+        EndName="Credentials"
+        EndLine="21"
+        EndColumn="14"
+        EndLength="3"
+        EndNodeId="314" />
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken2.go"
+        InitialName="&quot;SESSTION_TOKEN&quot;"
+        InitialLine="17"
+        InitialColumn="18"
+        InitialLength="16"
+        InitialNodeId="268"
+        EndFileName="\test_hardcoded_aws_cred_broken2.go"
+        EndName="Credentials"
+        EndLine="21"
+        EndColumn="14"
+        EndLength="3"
+        EndNodeId="314" />
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken1.go"
+        InitialName="&quot;SECRET_KEY&quot;"
+        InitialLine="22"
+        InitialColumn="15"
+        InitialLength="12"
+        InitialNodeId="82"
+        EndFileName="\test_hardcoded_aws_cred_broken1.go"
+        EndName="NewStaticCredentialsProvider"
+        EndLine="25"
+        EndColumn="55"
+        EndLength="28"
+        EndNodeId="131" />
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken1.go"
+        InitialName="&quot;ACCESS_KEY&quot;"
+        InitialLine="21"
+        InitialColumn="15"
+        InitialLength="12"
+        InitialNodeId="74"
+        EndFileName="\test_hardcoded_aws_cred_broken1.go"
+        EndName="NewStaticCredentialsProvider"
+        EndLine="25"
+        EndColumn="55"
+        EndLength="28"
+        EndNodeId="131" />
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken2.go"
+        InitialName="&quot;ACCESS_KEY&quot;"
+        InitialLine="15"
+        InitialColumn="15"
+        InitialLength="12"
+        InitialNodeId="252"
+        EndFileName="\test_hardcoded_aws_cred_broken2.go"
+        EndName="StaticCredentialsProvider"
+        EndLine="20"
+        EndColumn="45"
+        EndLength="3"
+        EndNodeId="305" />
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken2.go"
+        InitialName="&quot;SESSTION_TOKEN&quot;"
+        InitialLine="17"
+        InitialColumn="18"
+        InitialLength="16"
+        InitialNodeId="268"
+        EndFileName="\test_hardcoded_aws_cred_broken2.go"
+        EndName="StaticCredentialsProvider"
+        EndLine="20"
+        EndColumn="45"
+        EndLength="3"
+        EndNodeId="305" />
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken2.go"
+        InitialName="&quot;SECRET_KEY&quot;"
+        InitialLine="16"
+        InitialColumn="15"
+        InitialLength="12"
+        InitialNodeId="260"
+        EndFileName="\test_hardcoded_aws_cred_broken2.go"
+        EndName="StaticCredentialsProvider"
+        EndLine="20"
+        EndColumn="45"
+        EndLength="3"
+        EndNodeId="305" />
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken1.go"
+        InitialName="&quot;SECRET_KEY2&quot;"
+        InitialLine="29"
+        InitialColumn="99"
+        InitialLength="13"
+        InitialNodeId="197"
+        EndFileName="\test_hardcoded_aws_cred_broken1.go"
+        EndName="NewStaticCredentialsProvider"
+        EndLine="29"
+        EndColumn="55"
+        EndLength="28"
+        EndNodeId="191" />
+      <RESULT
+        InitialFileName="\test_hardcoded_aws_cred_broken1.go"
+        InitialName="&quot;ACCESS_KEY2&quot;"
+        InitialLine="29"
+        InitialColumn="84"
+        InitialLength="13"
+        InitialNodeId="195"
+        EndFileName="\test_hardcoded_aws_cred_broken1.go"
+        EndName="NewStaticCredentialsProvider"
+        EndLine="29"
+        EndColumn="55"
+        EndLength="28"
+        EndNodeId="191" />
+    </RESULTSLIST>
+    <QAANNOTATION></QAANNOTATION>
+    <USEDEFAULTCONFIG>False</USEDEFAULTCONFIG>
+    <VERSIONNUMBER>9.5.3</VERSIONNUMBER>
+    <DESCRIPTION>[AWS_Lambda Go] - Query - Hardcoded_AWS_Credentials</DESCRIPTION>
+    <PBIBUGID>280040</PBIBUGID>
+		<TAGS>commited.2022.23;SastAutomation</TAGS>
+  </E2ETest>
+</TestData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestData>
+  <E2ETest>
+    <PROJECTNAME>254910\WrongSizeBOTP</PROJECTNAME>
+    <TESTTYPE>QUERY</TESTTYPE>
+    <TESTOBJECTIVE>462</TESTOBJECTIVE>
+    <LANGUAGE>CSharp</LANGUAGE>
+    <RESULTS>1</RESULTS>
+    <RESULTSLIST>
+      <RESULT InitialFileName="\WrongSizeBO.cs" InitialLine="7" InitialColumn="22" InitialLength="8" InitialName="ReadLine" InitialNodeId="46" EndFileName="\WrongSizeBO.cs" EndLine="9" EndColumn="15" EndLength="1" EndName="t" EndNodeId="58" />
+    </RESULTSLIST>
+    <QAANNOTATION>
+    </QAANNOTATION>
+    <USEDEFAULTCONFIG>False</USEDEFAULTCONFIG>
+    <VERSIONNUMBER>9.4.4</VERSIONNUMBER>
+    <DESCRIPTION>[Net 6 - Queries] - Query Buffer_Overflow</DESCRIPTION>
+    <PBIBUGID>254910</PBIBUGID>
+		<TAGS>committed.2022.02;CSHARP_V2;SastAutomation</TAGS>
+  </E2ETest>
+</TestData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestData>
+  <E2ETest>
+    <PROJECTNAME>108929</PROJECTNAME>
+    <TESTTYPE>QUERY</TESTTYPE>
+    <TESTOBJECTIVE>6912</TESTOBJECTIVE>
+    <LANGUAGE>Scala</LANGUAGE>
+    <RESULTS>6</RESULTS>
+    <RESULTSLIST><RESULT InitialFileName="\caseClass.scala" InitialLine="5" InitialColumn="42" InitialLength="7" InitialName="nextInt" InitialNodeId="144" EndFileName="\caseClass.scala" EndLine="5" EndColumn="42" EndLength="7" EndName="nextInt" EndNodeId="144" /><RESULT InitialFileName="\small_bufchannelbuffertest.scala" InitialLine="41" InitialColumn="24" InitialLength="7" InitialName="nextInt" InitialNodeId="318" EndFileName="\small_bufchannelbuffertest.scala" EndLine="41" EndColumn="24" EndLength="7" EndName="nextInt" EndNodeId="318" /><RESULT InitialFileName="\small_bufchannelbuffertest.scala" InitialLine="18" InitialColumn="14" InitialLength="9" InitialName="nextBytes" InitialNodeId="543" EndFileName="\small_bufchannelbuffertest.scala" EndLine="18" EndColumn="14" EndLength="9" EndName="nextBytes" EndNodeId="543" /><RESULT InitialFileName="\small_bufchannelbuffertest.scala" InitialLine="19" InitialColumn="41" InitialLength="7" InitialName="nextInt" InitialNodeId="563" EndFileName="\small_bufchannelbuffertest.scala" EndLine="19" EndColumn="41" EndLength="7" EndName="nextInt" EndNodeId="563" /><RESULT InitialFileName="\small_bufchannelbuffertest.scala" InitialLine="26" InitialColumn="14" InitialLength="9" InitialName="nextBytes" InitialNodeId="673" EndFileName="\small_bufchannelbuffertest.scala" EndLine="26" EndColumn="14" EndLength="9" EndName="nextBytes" EndNodeId="673" /><RESULT InitialFileName="\small_bufchannelbuffertest.scala" InitialLine="27" InitialColumn="32" InitialLength="7" InitialName="nextInt" InitialNodeId="684" EndFileName="\small_bufchannelbuffertest.scala" EndLine="27" EndColumn="32" EndLength="7" EndName="nextInt" EndNodeId="684" /></RESULTSLIST>
+    <QAANNOTATION></QAANNOTATION>
+    <USEDEFAULTCONFIG>True</USEDEFAULTCONFIG>
+    <VERSIONNUMBER>8.5.0</VERSIONNUMBER>
+    <DESCRIPTION></DESCRIPTION>
+    <PBIBUGID></PBIBUGID>
+		<TAGS>SastAutomation</TAGS>
+  </E2ETest>
+</TestData>
