@@ -1,4 +1,4 @@
-name: Checkmarx Scan
+name: Checkmarx Scan - CLI 2.2.2
 
 on:
   workflow_dispatch:
