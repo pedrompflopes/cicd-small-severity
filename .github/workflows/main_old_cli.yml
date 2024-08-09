@@ -20,9 +20,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      
-      - name: Checkmarx AST CLI Action - with critical development 
-        uses: checkmarx/ast-github-action@main
+
+      - name: Checkmarx AST CLI Action - without critical development
+        uses: checkmarx/ast-github-action@2.0.31
         env:
           CX_APIKEY: ${{ github.event.inputs.apikey }}
         with:
