@@ -28,4 +28,3 @@ jobs:
         with:
           base_uri: ${{ github.event.inputs.baseUri }}
           cx_tenant: ${{ github.event.inputs.tenant }}
-          additional_params: --debug
