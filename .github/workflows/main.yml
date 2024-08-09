@@ -10,7 +10,7 @@ on:
         description: 'AST API Key'
         required: true
       tenant:
-        description: 'AST Username'
+        description: 'Tenant name'
         required: true
 
 
