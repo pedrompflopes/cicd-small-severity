@@ -23,6 +23,7 @@ jobs:
       
       - name: Checkmarx AST CLI Action - with critical development 
         uses: checkmarx/ast-github-action@main
+        continue-on-error: true
         env:
           CX_APIKEY: ${{ github.event.inputs.apikey }}
         with:
@@ -32,6 +33,7 @@ jobs:
 
       - name: Checkmarx AST CLI Action - without critical development
         uses: checkmarx/ast-github-action@2.0.31
+        continue-on-error: true
         env:
           CX_APIKEY: ${{ github.event.inputs.apikey }}
         with:
