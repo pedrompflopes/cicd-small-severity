@@ -1,0 +1,40 @@
+name: Checkmarx Scan
+
+on:
+  workflow_dispatch:
+    inputs:
+      baseUri:
+        description: 'AST Base URI'
+        required: true
+      apikey:
+        description: 'AST API Key'
+        required: true
+      tenant:
+        description: 'AST Username'
+        required: true
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Checkmarx AST CLI Action - with critical development 
+        uses: checkmarx/ast-github-action@main
+        env:
+          CX_APIKEY: ${{ github.event.inputs.apikey }}
+        with:
+          base_uri: ${{ github.event.inputs.baseUri }}
+          cx_tenant: ${{ github.event.inputs.tenant }}
+          additional_params: --debug
+
+      - name: Checkmarx AST CLI Action - without critical development
+        uses: checkmarx/ast-github-action@2.0.31
+        env:
+          CX_APIKEY: ${{ github.event.inputs.apikey }}
+        with:
+          base_uri: ${{ github.event.inputs.baseUri }}
+          cx_tenant: ${{ github.event.inputs.tenant }}
+          additional_params: --debug
